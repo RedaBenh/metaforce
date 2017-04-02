@@ -1,7 +1,7 @@
 require 'metaforce'
 
 # Run with: `USER=user PASS=pass TOKEN=securitytoken bundle exec ruby example.rb`
-
+# 
 Metaforce.configuration.log = false
 
 client = Metaforce.new :username => ENV['USER'],
